@@ -1,0 +1,84 @@
+<!doctype html>
+<html lang="en">
+<head>
+<!--@head title="Contact — Vena"-->
+</head>
+<body class="t-light" data-page="contact">
+<!--@loader-->
+<!--@nav tone="ink" current=""-->
+<main>
+<section class="wrap contact" aria-label="Contact">
+<div class="contact__text">
+<div class="stack-l">
+<div class="eyebrow" data-scramble>[ Contact ]</div>
+<h1 class="mega mega--contact" data-split="chars">Let’s talk <span class="serif">stone.</span></h1>
+<p class="lede" data-reveal="up">Tell us the stone, the format and the size of the project — or simply what you are trying to build. We answer every enquiry ourselves.</p>
+</div>
+<div class="stack-s">
+<div class="eyebrow mute" data-reveal="up">Useful to mention</div>
+<ol class="tips" data-stagger>
+<li><span class="eyebrow mute">01</span><span>Where the stone is going: a floor, a wall, a worktop.</span></li>
+<li><span class="eyebrow mute">02</span><span>Rough sizes, or a drawing if you have one.</span></li>
+<li><span class="eyebrow mute">03</span><span>The finish you like, if you already know.</span></li>
+</ol>
+</div>
+<dl class="contact__facts" data-stagger>
+<div><dt class="eyebrow mute">Showroom</dt><dd>[SHOWROOM ADDRESS]</dd></div>
+<div><dt class="eyebrow mute">Hours</dt><dd>[OPENING HOURS]</dd></div>
+<div><dt class="eyebrow mute">Phone</dt><dd>[YOUR PHONE]</dd></div>
+<div><dt class="eyebrow mute">Email</dt><dd>[YOUR EMAIL]</dd></div>
+</dl>
+</div>
+
+<div class="contact__panel" data-contact-panel>
+<img class="contact__bg" src="assets/img/bianco-carrara.jpg" alt="" data-parallax="8">
+<div class="contact__veil" aria-hidden="true"></div>
+<form class="enquiry" aria-label="Enquiry" data-enquiry novalidate>
+<div class="enquiry__top eyebrow"><span>Enquiry</span><span>* Required</span></div>
+<div class="enquiry__row">
+<div class="field-wrap"><label for="f-name" class="eyebrow">Name *</label><input class="field" id="f-name" name="name" type="text" placeholder="Your full name" autocomplete="name" required><i class="field-line"></i></div>
+<div class="field-wrap"><label for="f-email" class="eyebrow">Email *</label><input class="field" id="f-email" name="email" type="email" placeholder="you@example.com" autocomplete="email" required><i class="field-line"></i></div>
+</div>
+<div class="enquiry__row">
+<div class="field-wrap"><label for="f-phone" class="eyebrow">Phone</label><input class="field" id="f-phone" name="phone" type="tel" placeholder="Optional" autocomplete="tel"><i class="field-line"></i></div>
+<div class="field-wrap"><label for="f-stone" class="eyebrow">Stone</label>
+<div class="select">
+<select class="field" id="f-stone" name="stone">
+<option>Not sure yet</option><option>Calacatta Oro</option><option>Nero Marquina</option><option>Verde Alpi</option><option>Bianco Carrara</option><option>Portoro</option><option>Rosso Levanto</option><option>Emperador Dark</option><option>Travertino Romano</option>
+</select>
+<svg width="12" height="12" viewBox="0 0 12 12" fill="none" aria-hidden="true"><path d="M2 4 L6 8 L10 4" stroke="currentColor" stroke-width="1.6"/></svg>
+</div><i class="field-line"></i></div>
+</div>
+<fieldset class="enquiry__formats">
+<legend class="eyebrow">Format</legend>
+<div class="picks">
+<label class="pick"><input type="checkbox" name="format" value="Slabs"><span>Slabs</span></label>
+<label class="pick"><input type="checkbox" name="format" value="Tiles"><span>Tiles</span></label>
+<label class="pick"><input type="checkbox" name="format" value="Cut-to-size"><span>Cut-to-size</span></label>
+</div>
+</fieldset>
+<div class="field-wrap field-wrap--grow"><label for="f-project" class="eyebrow">Your project *</label><textarea class="field" id="f-project" name="project" rows="6" placeholder="Where the stone is going, rough sizes, the finish you like…" required></textarea><i class="field-line"></i></div>
+<p class="enquiry__error small" role="alert" hidden>Please fill in your name, a valid email and a few words about the project.</p>
+<div class="enquiry__send">
+<button type="submit" class="btn btn--ink" data-magnetic><span class="btn__label"><span data-roll>Send enquiry</span></span><span class="btn__thumb"><img src="assets/img/calacatta-oro.jpg" alt=""><!--@arrow--></span></button>
+<span class="small">We reply by email or by phone, whichever you prefer.</span>
+</div>
+</form>
+<div class="sent" role="status" hidden data-sent>
+<div class="eyebrow">Enquiry sent</div>
+<div class="stack-m">
+<p class="sent__title" data-sent-title>Thank you. <span class="serif">We’ll be in touch.</span></p>
+<p class="body">Your enquiry is with us. In the meantime, the collection is always open.</p>
+<div class="cta__row">
+<!--@btn href="collection.html" label="Back to the collection" tone="ink"-->
+<button type="button" class="btn-ghost" data-again>Send another</button>
+</div>
+</div>
+</div>
+</div>
+</section>
+</main>
+<!--@footer-->
+<!--@scripts-->
+</body>
+</html>
